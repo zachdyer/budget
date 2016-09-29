@@ -1,0 +1,71 @@
+html{
+	min-height:100%;
+}
+body{
+	margin:0;
+	background:url("images/bg.jpg") no-repeat;
+	background-position:bottom right;
+	
+}
+header{
+	background:honeyDew;
+	padding:20px;
+	border-bottom: 1px solid rgb(216, 243, 214);
+	height:35px;
+}
+#progressBar{
+	float:left;
+	height:30px;
+	width:500px;
+	background: rgb(248, 243, 229);
+	margin-top:2px;
+	border: 1px solid rgb(215, 236, 209);
+}
+h1, h2, #min-balance, #days-covered{
+	font-weight:normal;
+	text-transform:uppercase;
+	color:rgb(122, 170, 122);
+	letter-spacing:5px;
+	margin:0;
+}
+h1{
+	float:left;
+	margin-right:20px;
+}
+h2{
+	color:rgb(172, 197, 172);
+}
+#bills{
+	padding:20px 0 0 20px;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+li{
+	color:rgb(87, 102, 79);
+}
+input{
+	margin-right:10px;
+}
+#sign{
+	background:url("images/yield.gif")no-repeat;
+	background-size:300px 300px;
+	width:300px;
+	height:300px;
+	text-align:center;
+	margin-left:20px;
+	
+}
+#nextBill{
+	font-family: Arial Black;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin: 0 auto;
+	width:180px;
+	padding-top:75px;
+}
+#min-balance, #days-covered{
+	color:rgb(172, 197, 172);
+}
+
